@@ -1,0 +1,97 @@
+body {
+  background-color: azure;
+}
+
+.intro {
+  margin-top: 50px;
+  display: flex;
+  gap: 150px !important;
+  align-items: center;
+}
+
+#services{
+  gap: 100px;
+}
+
+.service {
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.doctor {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appointment{
+  width: 300px;
+}
+
+.login {
+  border: 2px green solid;
+  background-color: white;
+  margin: 20vh auto;
+  display: flex;
+  padding: 40px;
+  border-radius: 10px;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.a-0{
+  border: 3px blue solid;
+} 
+
+.a-1{
+  border: 3px green solid;
+
+}
+
+
+.search-input {
+  outline: none !important;
+}
+
+.table-icon {
+  border: 0;
+}
+
+.table-icon span {
+  font-size: 34px;
+}
+
+#products td img {
+  width: 100px;
+  transition: transform ease 0.3s;
+}
+
+#products td img:hover {
+  transform: scale(1.5);
+}
+
+footer{
+  padding: 25px;
+  color: white;
+  margin-top: 200px;
+  background-color: green;
+}
+
+@media (max-width: 768px) {
+ body .login {
+    width: 85%;
+  }
+
+ body .login div {
+    width: 100% !important;
+  }
+}
